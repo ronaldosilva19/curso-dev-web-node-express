@@ -1,0 +1,12 @@
+function converter(real, dolar) {
+  var conversao = real * dolar;
+  return conversao;
+}
+
+var real = 2;
+var dolar = 4.05;
+
+var resultado = converter(real, dolar)
+
+console.log("Valor convertido: " + resultado)
+
